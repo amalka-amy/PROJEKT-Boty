@@ -21,3 +21,153 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+body{
+    background-color: #f5f5f5;
+}
+
+.produkt{
+    margin-left: auto;
+    margin-right: auto;
+    width: 670px;
+    height: 440px;
+    margin-top:200px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 10px #959595;
+    background-color: white;
+}
+
+.zelena{
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    flex-basis: 50%;
+    padding: 30px;
+    position:relative;
+    border-radius: 10px 0 0 10px;
+    color:white;
+}
+
+.info{
+    position: relative;
+    flex-basis: 50%;
+    padding: 30px;
+}
+
+.logo{
+    margin-bottom:30px;
+}
+
+.bota{
+    position: absolute;
+    left: -80px;
+    bottom: 4px;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+
+}
+
+ul{
+    list-style:none;
+    padding-left: 0px;
+    display: flex;
+}
+
+li{
+    display:inline;
+    margin:10px;
+    margin-left: 5px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+li>a{
+    font-family: 'Rubik', sans-serif;
+    border: 1px white solid;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+
+li>a:hover, .oranzova{
+    border: 1px #f15f42 solid;
+    padding: 5px;
+    border-radius: 50%;
+    color: #f15f42;
+}
+
+p{
+    font-family: 'Rubik', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tempo{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cena{
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.dodatek{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.poznamka{
+    color: #959595;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-top:30px;
+    margin-bottom: 30px;
+    border-color: #06d7c1;
+}
+
+.kontak{
+    display:flex;
+}
+.cennik{
+    position:absolute;
+    bottom: 30px;
+    right:30px;
+}
+
+.button{
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    left: 30px;
+    bottom:30px;
+    width: 40%;
+    text-align: center;
+    background-color: #f15f42;
+    padding:15px;
+    text-decoration: none;
+    color: #f5f5f5;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+
+}
